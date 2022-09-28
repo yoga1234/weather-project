@@ -29,7 +29,7 @@
 .search-result {
   display: flex;
   flex-direction: column;
-  height: 215px;
+  height: 170px;
   border: 1px solid #000;
   margin-top: 4px;
   overflow-y: hidden;

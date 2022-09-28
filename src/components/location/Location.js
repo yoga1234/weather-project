@@ -13,7 +13,6 @@ const Location = () => {
         <p>Location Found</p>
         <p>Location Found</p>
         <p>Location Found</p>
-        <p>Location Found</p>
       </div>
     </div>
   );

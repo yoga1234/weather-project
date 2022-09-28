@@ -1,0 +1,25 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+  bottom: 200px;
+  margin-bottom: -200px;
+}
+.main-container .left p {
+  font-family: var(--font-main);
+  font-size: 92px;
+  font-weight: 700;
+}
+.middle,
+.right {
+  padding-bottom: 18px;
+}
+.main-container .middle p {
+  font-family: var(--font-main);
+  font-size: 24px;
+}
+.main-container .right p {
+  font-family: var(--font-main);
+  font-size: 24px;
+}
