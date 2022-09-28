@@ -1,0 +1,22 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+.details-container h3 {
+  font-family: var(--font-main);
+  font-size: 20px;
+  font-weight: 400;
+}
+.details-container div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-top: 16px;
+}
+.details-container div p {
+  font-family: var(--font-main);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
