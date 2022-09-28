@@ -3,13 +3,19 @@
   flex-direction: row;
   align-items: flex-end;
   position: relative;
+  column-gap: 10px;
   bottom: 200px;
+  border-radius: 20px;
   margin-bottom: -200px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: rgba(0, 0, 0, 0.75);
 }
 .main-container .left p {
   font-family: var(--font-main);
   font-size: 92px;
   font-weight: 700;
+  color: #fff;
 }
 .middle,
 .right {
@@ -18,8 +24,15 @@
 .main-container .middle p {
   font-family: var(--font-main);
   font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+}
+.main-container .middle .location {
+  font-size: 44px;
 }
 .main-container .right p {
+  font-weight: 300;
   font-family: var(--font-main);
   font-size: 24px;
+  color: #fff;
 }

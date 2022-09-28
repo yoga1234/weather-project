@@ -1,12 +1,15 @@
 .forecast-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px 20px 18px 20px;
+  border-radius: 10px;
 }
 .forecast-container h3 {
   font-family: var(--font-main);
   font-size: 24px;
   font-weight: 400;
+  color: #fff;
 }
 .forecast-container .forecast-item {
   display: flex;
@@ -14,7 +17,9 @@
   justify-content: space-between;
   padding-top: 12px;
   padding-bottom: 12px;
+  color: #fff;
 }
 .forecast-item p {
   font-family: var(--font-main);
+  color: #fff;
 }
